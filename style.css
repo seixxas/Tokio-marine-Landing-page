@@ -1,0 +1,135 @@
+.navbar-hover:hover{
+    color: #148163;
+
+}
+
+.background-header{
+    background-color: rgb(233, 231, 231);   
+}
+
+.link-home{
+    color: #333333;
+    text-decoration: none;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold
+}
+
+@media screen and (max-width: 765px) {
+    .esconder-conteudo{
+        display: none;
+    } 
+    .responsividade-dos-buttons{
+        width: auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    .buscador{
+        display: none;
+    } 
+}
+
+.banner{
+    background: #148165 url('images/banner-canaisdigitais.jpg') ;
+    background-size:cover;
+    background-position:center;
+    object-fit: cover;
+    min-height: 50vh;
+}
+
+.banner h2{
+    font-size: 16px ;
+}
+
+@media (max-width: 768px){
+    .banner{
+        min-height: 30vh;
+    }
+       
+}
+
+.divisor-amarelo-center{
+    height: 1px;
+    width: 15%;
+    margin-top: -2px;
+    text-align: center;
+    background-color: #ebc300;
+    border: 2px solid #ebc300;
+    opacity: 25;
+    
+}
+
+.legenda-foto  {
+    font-weight: bold;
+    
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400px;
+    
+}
+
+.fundo-verde{
+    background-color: #148163;
+    
+}
+
+.section-1{
+    position: relative;
+    top: -25px;
+    margin-bottom: -40px;
+    padding-bottom:80px ;
+}
+
+.texto-esverdeado{
+    color: #148163;
+}
+
+a{
+    color: #337ab7;
+    text-decoration: none;
+
+}
+
+.btn.btn-primary{
+    background-color: #148165;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 30px 0px 0px;
+    padding: 15px 30px;
+    font-weight: 300px;
+    border-color: #148163;
+}
+.btn-primary:hover{
+    background-color: #127458;
+}
+
+.cor-cinza{
+    color: #707070;
+    font-weight: bold;
+    
+}
+
+.descricao-card h2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 42px;
+
+}
+.descricao-card h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
